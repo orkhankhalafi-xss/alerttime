@@ -4,9 +4,9 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 2.5.x   | :white_check_mark: |
-| 2.4.x   | :white_check_mark: |
-| < 2.4   | :x:                |
+| 1.0.x   | :white_check_mark: |
+
+
 
 ## Reporting a Vulnerability
 
@@ -100,5 +100,6 @@ Security updates will be released as soon as possible after validation. Users ar
 - Keep the tool updated to the latest version
 - Monitor the repository for security announcements
 - Follow security best practices
+
 
 Thank you for helping keep AlertTime XSS Scanner secure!
