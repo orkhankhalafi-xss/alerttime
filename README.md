@@ -32,8 +32,8 @@
 
 ### Quick Install
 ```bash
-git clone https://github.com/orkhankhalafi/alerttime-xss-scanner.git
-cd alerttime-xss-scanner
+git clone https://github.com/orkhankhalafi/alerttime.git
+cd alerttime
 pip install -r requirements.txt
 ```
 
@@ -43,7 +43,6 @@ pip install -r requirements.txt
 - urllib3 >= 1.26.0
 - colorama >= 0.4.4
 
-## 🎯 Quick Start
 
 ### Basic Usage
 ```bash
@@ -58,15 +57,6 @@ python3 alerttime.py -l targets.txt --method POST --data "search=FUZZ&type=query
 
 # Stealth scan
 python3 alerttime.py -l targets.txt -t 10 --delay 1.0
-```
-
-### Target File Format
-Create a text file with one URL per line, using `FUZZ` as injection placeholder:
-
-```
-https://example.com/search?q=FUZZ
-https://example.com/profile?name=FUZZ&id=123
-https://target.com/page?input=FUZZ
 ```
 
 ## 📖 Usage Examples
@@ -155,9 +145,9 @@ python3 alerttime.py -l targets.txt -v --html-report
 ```json
 {
   "scan_metadata": {
-    "timestamp": "2024-12-19T10:30:00",
-    "scanner": "AlertTime XSS Scanner",
-    "version": "2.5",
+    "timestamp": "2026-12-19T10:30:00",
+    "scanner": "AlertTime ",
+    "version": "1.0",
     "author": "Orkhan Khalafi",
     "linkedin": "https://www.linkedin.com/in/orkhankhalafi/",
     "total_vulnerabilities": 5,
@@ -207,8 +197,8 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ### Development Setup
 ```bash
-git clone https://github.com/orkhankhalafi/alerttime-xss-scanner.git
-cd alerttime-xss-scanner
+git clone https://github.com/orkhankhalafi/alerttime.git
+cd alerttime
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -244,5 +234,6 @@ If you find this tool useful, please:
 
 ---
 
-**AlertTime XSS Scanner v2.5** - Professional Security Testing Tool  
+**AlertTime  v1.0** - Professional Security Testing Tool  
+
 *Built with ❤️ for the security community*
