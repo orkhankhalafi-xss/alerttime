@@ -22,7 +22,7 @@ from datetime import datetime
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 init(autoreset=True)
 
-__version__ = "2.5"
+__version__ = "1.0"
 __author__ = "Orkhan Khalafi"
 __linkedin__ = "https://www.linkedin.com/in/orkhankhalafi/"
 
@@ -908,4 +908,5 @@ Usage Examples:
     print(f"{Fore.YELLOW}[*] Remember: This tool is for authorized testing only{Style.RESET_ALL}")
 
 if __name__ == "__main__":
+
     main()
